@@ -1,0 +1,17 @@
+Check Palindrome (recursive)
+https://www.naukri.com/code360/problems/check-palindrome-recursive_624386
+
+C++
+bool isPalindrome(string& str) {
+    // Write your code here.
+    int n = str.size();
+    if(n<=1)
+        return true;
+    
+    if(str[0] != str[n-1])
+        return false;
+
+    str = str.substr(1,n-2);
+
+    return isPalindrome(str);
+}
