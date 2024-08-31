@@ -1,0 +1,17 @@
+//Print n times
+//link -  https://www.codingninjas.com/studio/problems/-print-n-times_8380707?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
+
+
+//C++
+vector<string> printNTimes(int n) {
+	// Write your code here.
+	vector<string>s;
+	if(n<1)
+		return s;
+	
+	cout << "Coding Ninjas ";
+	printNTimes(n-1);
+
+}
+
+
