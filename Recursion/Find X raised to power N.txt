@@ -1,0 +1,13 @@
+Find X raised to power N
+https://www.naukri.com/code360/problems/find-x-raised-to-power-n-_626560
+
+C++
+
+double myPow(double x, int n) {
+    // Write Your Code Here
+    if(n == 0) return 1;
+
+    if(n > 0 )return x*myPow(x, n-1);
+
+    if(n < 0) return myPow(x, n+1)/x;
+}
