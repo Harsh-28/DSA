@@ -1,4 +1,4 @@
-//Print n times
+Print n times
 //link -  https://www.codingninjas.com/studio/problems/-print-n-times_8380707?utm_source=youtube&utm_medium=affiliate&utm_campaign=parikh_youtube
 
 
